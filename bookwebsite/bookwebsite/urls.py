@@ -23,4 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
    # path('',views.header.urls),
    path('', views.header, name='header'),#بتطلعلي صفحة الويب الي فيها الهيدر html
+   path('list', views.listbooks, name='listbooks'),
+   path('model', views.model, name='model'),
+   path('books', views.books, name='books'),
+   path('we', views.we, name='we'),
 ]

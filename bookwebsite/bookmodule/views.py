@@ -12,3 +12,13 @@ from django.shortcuts import render
 def header(request):
     return render(request, 'includes/header.html')
 
+def listbooks(request):
+    return render(request,'includes\listbooks.html')
+
+def model(request):
+    return render(request,'includes\model.html')
+def books(request):
+    return render(request,'includes\books.html')
+
+def we(request):
+    return render(request,'includes\we.html')
