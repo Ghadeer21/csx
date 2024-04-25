@@ -10,5 +10,6 @@ urlpatterns = [
      path('books', views.books, name='books'),
      path('we', views.we, name='we'),
 
+
 ]
 #example/

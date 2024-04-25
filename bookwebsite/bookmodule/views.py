@@ -2,7 +2,10 @@ from django.shortcuts import render
 
 # Create your views here.
 
+from django.http import HttpResponse
 
+def homepage(request):
+  return HttpResponse('hello world')
 #def example_view(request):
  #   return render(request, 'bookmodule/example.html')
 
