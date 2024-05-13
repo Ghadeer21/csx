@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'bookmodule',
    'bookwebsite' ,
    'static',
+   
 
    
    
@@ -140,7 +141,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
     
    
-    # أي مواقع إضافية للبحث عن الملفات الثابتة يمكنك وضعها هنا
+    # أي مواقع إضافية للبحث عن الملفات الثابتة احطها هنا
 ]
 
 

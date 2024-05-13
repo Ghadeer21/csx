@@ -27,7 +27,10 @@ urlpatterns = [
    path('model', views.model, name='model'),
    path('books', views.books, name='books'),
    path('we', views.we, name='we'),
-   path('', views.homepage)
+   path('', views.homepage),
+   path('display_books', views.display_books, name='display_books'),
+   
+
   
 
 
